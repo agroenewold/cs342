@@ -10,3 +10,8 @@
       A candidate key is a minimal superkey.
       A primary key is a candidate key that is chosen to identify a tuple.
       A foreign key is a reference to a primary key in a different table.
+
+c. Tuples can be ordered by a key but do not have to be.
+  Attributes in a tuple are ordered, otherwise they would be unlabeled.
+  
+ d. No, they would have to be 2 different attributes.
