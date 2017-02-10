@@ -1,0 +1,10 @@
+Andrew Groenewold
+Spring 2016
+Lab 2, Ex 2.2
+
+a. Use the constrinat:
+	CHECK (((score IS NOT NULL) and votes > 1000) or score IS NULL)
+
+b. You could want to do that if you have to update a primary key that is
+	referenced as a foreign key or if you want to add a cosntraint on
+	a continuously running database that you forgot to add previously.
