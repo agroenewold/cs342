@@ -1,0 +1,6 @@
+1a. Student.Major, Course.Course_number, Department.Department_number, Section.Course_number,
+  Prerequisite.Course_number, and Prerequisite_number need to change.
+  
+ 1b. We could make a new Department table that has id (1, 2, 3, ...) and name (CSSE, MATH, ...) fields.
+  Then we can change Student.Major to Student.MajorID and Course.Department to Course.DepartmentID. We
+  can also split all course number fields to course_department_id and course_number.
