@@ -1,0 +1,49 @@
+User:
+ID    | Name    | Password
+1     | Steve   | ThisIzMe
+2     | Joe     | 1234
+
+College:
+ID    | Name
+1     | Calvin
+2     | Hope
+3     | Dordt
+
+Schedule:
+ID    | UserID  | College_ID
+1     | 1       | 1
+2     | 1       | 2
+3     | 1       | 1
+4     | 2       | 1
+
+Department:
+ID    | Name    | College_ID
+1     | CS      | 1
+2     | MATH    | 1
+3     | CS      | 2
+
+Course:
+ID    | Name    | Number  | Department_ID
+1     | IntroCS | CS108   | 1
+2     | AdvCS   | CS112   | 1
+3     | OtherCS | CS101   | 3
+4     | Calc    | MATH101 | 2
+
+Proffesor:
+ID    | FName   | LName   | Department_ID
+1     | Joe     | Smith   | 1
+2     | Joe     | Smith   | 3
+3     | John    | Engbers | 1
+4     | Jane    | Engbers | 4
+
+Section:
+ID    | Course_ID | Letter  | Prof_ID | Start   | End     | M | T | W | Th | F
+1     | 1         | A       | 1       | 10:30AM | 11:30AM | y | n | y | n  | y
+2     | 1         | B       | 3       | 9:00AM  | 10:00AM | y | n | y | n  | y
+3     | 4         | A       | 3       | 9:00AM  | 10:00AM | y | n | y | n  | y
+
+ScheduleSection:
+Sched_ID  | Section_ID
+1         | 1
+1         | 3
+4         | 1
