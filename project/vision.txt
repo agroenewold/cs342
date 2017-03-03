@@ -1,0 +1,5 @@
+I plan to make a database for a Pokemon game. The users would be people playing the game.
+I could store information about the user's accounts, including what Pokemon they have and what items they have.
+I could also record information about available Pokemon, including a the Pokemon's predicted stats and potential
+moveset. There would also be a table for the Pokemon actually owned by a trainer, with information about the Pokemon's
+current health, stats, and moveset.
